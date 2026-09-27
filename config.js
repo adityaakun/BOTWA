@@ -1,16 +1,16 @@
 module.exports = {
-  TokenBot: 'TokenKamu',
-  ApiID: 33727135,  //Ganti Punya Lu
-  ApiHash: '6f18d3a078e15081fccae112c67ec5a3', //Ganti Punya Lu
+  TokenBot: '7248463408:AAHJMRlMa7HIwft0Yavof33RO2L_lb8YFB0',
+  ApiID: 33203053,  // Masih pakai yang lama, ganti nanti kalau sudah dapat yang baru
+  ApiHash: 'e53c55a746ac0e1126c15e76c5667c17', // Masih pakai yang lama, ganti nanti
   ApiTg: 'https://api.telegram.org',
   MaxSize: 2000,
   DirFile: './tmp',
 
-  GITHUB_TOKEN: 'GitHubToken',
-  GITHUB_OWNER: 'UserGithub',
-  GITHUB_REPO: 'RepoGithub',
-  GITHUB_BRANCH: 'main',//Jan di ganti
-  GITHUB_WORKFLOW_FILE: 'build.yml', // Samakan dengan di gh lu
+  GITHUB_TOKEN: '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',
+  GITHUB_OWNER: 'adityaakun',
+  GITHUB_REPO: 'BOTWA',
+  GITHUB_BRANCH: 'main',
+  GITHUB_WORKFLOW_FILE: 'build.yml',
 
   POLL_INTERVAL_MS: 15000,
   POLL_TIMEOUT_MS: 35 * 60000,
@@ -38,11 +38,11 @@ module.exports = {
  </blockquote>
 `,
 
-  OWNER_CHAT_ID: 8522032505,  //Ganti Punya Lu
+  OWNER_CHAT_ID: 6648026974,
   ADMIN_IDS: [],
-  SUPEROWNER_IDS: [8522032505], //Ganti Punya Lu
-  NOTIF_CHANNEL_ID: -1003752062491, //Ganti Punya Lu
-  NOTIF_CHANNEL_USERNAME: '@NtedCrasherExec', //Ganti Punya Lu
+  SUPEROWNER_IDS: [6648026974],
+  NOTIF_CHANNEL_ID: -1004325160266,
+  NOTIF_CHANNEL_USERNAME: '@dityakece',
   REQUIRE_JOIN_CHANNEL: true,
   
   DATA_DIR: './backups',
