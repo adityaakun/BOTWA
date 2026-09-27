@@ -1,0 +1,19 @@
+{
+  "name": "flutter-build-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot untuk build APK Flutter otomatis lewat GitHub Actions",
+  "main": "bot.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.0",
+    "axios": "^1.7.9",
+    "js-yaml": "^4.1.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "telegram": "^2.22.2"
+  }
+}
